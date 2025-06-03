@@ -1,7 +1,9 @@
 import React, { useContext } from 'react';
 import classes from './Header.module.css';
-import Amazon from '../../../src/assets/images/amazon.png';
-import flag from '../../../src/assets/images/flag.svg.png';
+
+import Amazon from '../../assets/images/amazon.png';
+import flag from '../../assets/images/flag.svg.png';
+
 import { BsSearch } from "react-icons/bs";
 import { SlLocationPin } from "react-icons/sl";
 import { FaShoppingCart } from "react-icons/fa";
