@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import classes from './Header.module.css';
 
 import Amazon from '../../assets/images/amazon.png';
-import flag from '../../assets/images/flag.svg.png';
+import flag from '../../assets/images/Ameicanflag.png';
 
 import { BsSearch } from "react-icons/bs";
 import { SlLocationPin } from "react-icons/sl";
