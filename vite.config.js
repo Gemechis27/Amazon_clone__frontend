@@ -20,13 +20,20 @@
 //   },
 // });
 
+// import { defineConfig } from 'vite';
+// import react from '@vitejs/plugin-react';
+
+// export default defineConfig({
+//   base: '/Amazon_clone__frontend/',
+//   plugins: [react()],
+//   build: {
+//     // Removed chunkSizeWarningLimit and manualChunks for default behavior
+//   },
+// });
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/Amazon_clone__frontend/',
+  base: '/Amazon_clone__frontend/', // ✅ Must match the GitHub repo name exactly
   plugins: [react()],
-  build: {
-    // Removed chunkSizeWarningLimit and manualChunks for default behavior
-  },
 });

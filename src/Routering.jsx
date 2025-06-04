@@ -16,7 +16,7 @@ const stripePromise = loadStripe
 
 const Routering = () => {
   return (
-    <Router basename="Amazon_clone__frontend/">
+    <Router basename="/Amazon_clone__frontend/">
       <Routes>
         <Route path='/' element={<Landing />} />
         <Route path=
