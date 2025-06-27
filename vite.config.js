@@ -34,6 +34,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/Amazon_clone__frontend/', // ✅ Must match the GitHub repo name exactly
+  base: '/', // ✅ Must match the GitHub repo name exactly
   plugins: [react()],
 });
