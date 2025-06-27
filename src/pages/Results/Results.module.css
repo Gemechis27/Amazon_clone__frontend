@@ -1,0 +1,25 @@
+.productCard_container {
+  width: 100%;
+  height: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  transition: transform 0.2s ease-in-out;
+}
+
+.productCard_container:hover {
+  transform: translateY(-5px);
+}
+
+.product_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
